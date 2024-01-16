@@ -1,0 +1,14 @@
+
+//Reset
+@import 'reset/vars';
+@import 'reset/mixin.scss';
+@import 'reset/reset';
+@import 'reset/grid';
+
+//Estructura principal
+@import 'header';
+@import 'principal';
+@import 'footer';
+
+//Media queries
+@import 'mediaq';

@@ -1,0 +1,22 @@
+// Con parametros - declarar y en partial incovo
+
+// @mixin - @include
+@mixin sizes($p, $m, $w, $h) {
+    margin: $m;
+    padding: $p;
+    width: $w;
+    height: $h;
+ }
+
+
+//Sin parametros
+@mixin flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+@mixin title-secundary{
+    font-family: $font-body;
+    font-size: $k-md;
+}

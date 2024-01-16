@@ -1,0 +1,37 @@
+
+@media (min-width:  768px) and (max-width: 1200px){
+    .grid-container{
+        display: grid;
+        background-color: #cacaca;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:0.5fr repeat( 3, 1fr);
+        grid-template-areas: 
+            "header    header "
+            "section   section  "
+            "main       main  "
+            "footer    footer"
+         ;
+    }
+    .title{
+        color: #000000;
+        
+    }
+    .sub-title{
+        display: none;
+    }
+}
+/*mobile */
+/* Declaracion literal */
+@media (max-width: 480px){
+    .grid-container{
+        background-color: #1d9d5d;
+        grid-template-columns: 1fr;
+        grid-template-rows:0.5fr repeat( 3, 1fr);
+        grid-template-areas: 
+                "header  "
+                "section  "
+                "main   "
+                "footer "
+             ;   
+    }
+}

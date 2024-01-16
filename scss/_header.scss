@@ -1,0 +1,67 @@
+header{
+    grid-area: header;
+}
+.background-navbar{
+    background-color:  #f7f6f2;
+}
+.encabezado{
+    /*Color de fondo*/
+    background-color:  $background-pie;
+    @include flex;
+    @include sizes(1.5rem, 1rem, 100px, 100px);
+}
+.contenedor{
+    &--header{
+        background-image: url('../assets/portada-index.jpeg');
+        height: map-get($ren, h);
+    }
+    &--galeria{
+        background-image: url('../assets/portada-galeria.jpeg');
+    }
+
+}
+
+.encabezado{
+    &-envio{
+        background-color: #d94077;
+        color: #ffffff;
+        text-align: center;
+        @include flex;
+    }
+    nav{
+        background-color: $background-pie;
+    ul{
+        display: flex;
+        gap: 1em;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: map-get($colors, primario);
+                }
+            }
+        }
+    }
+}  
+
+
+
+.cont-logo{
+    width: 150px;
+    @include flex;
+}
+
+.cont-logo img{
+    width: 100%;
+}
+        /*BS*/
+        .navbar-toggler:focus{
+            box-shadow: none;
+        }
+.btn-k{
+    background-color: #b25e22;
+    color: #ffffff;
+    &:hover{
+    border: 1px #a52a2a solid;
+    }
+}

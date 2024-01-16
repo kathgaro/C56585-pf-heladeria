@@ -1,0 +1,17 @@
+footer{
+    grid-area: footer;
+    background-color:  $background-pie;
+
+    img{
+        /*Tamaño del logo en footer*/
+        width: 100px;
+    }
+
+    ul{ background-color:  $background-pie;
+    
+        li{ background-color:  #fbefe5;
+        
+            a{ background-color:  #fbefe5;}
+        }
+    }
+ }
