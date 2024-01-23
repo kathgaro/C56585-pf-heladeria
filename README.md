@@ -12,3 +12,9 @@ Solucion:
 - comando de instalacion: npm install -g sass -
 1. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 2. Volver a ejecutar comando -   
+
+
+
+## Cambiar nombre de repositorio
+Settings > Nombre de repo
+En visual code > Abrimos terminal > git pull
