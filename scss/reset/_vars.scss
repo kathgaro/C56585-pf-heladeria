@@ -17,11 +17,49 @@ $k-md: 2rem;
 
 //MAPAS ✨
 $colors: (
-    primario: #d94077,
-    secundario: #0000ff,
-    terciario: #671313,
-    inhabilitado: #443e3e,
+    instagram: #d94077,
+    threads: #0000ff,
+    whatsapp: #671313,
 );
+
+//  ☝ Llave        ☝Valor
+//     colores       valor_colores
+
+@each $colores, $valor_colores in $colors{
+    .bi-#{$colores}{
+        width: 50px;
+        height: 50px;
+        &:hover{
+            box-shadow: 1px 1px 15px $valor_colores;
+        }
+    }
+}
+
+$font-variant:(
+    xxl: 40px,
+    xl: 38px,
+    md: 28px,
+    sm: 12px,
+    xs: 10px
+);
+//  ☝    ☝
+//talles   tamano
+
+@each $talles, $tamano in $font-variant{
+
+    .txt-#{$talles}{
+        font-size: $tamano;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 $ren:(
     w: 1rem,

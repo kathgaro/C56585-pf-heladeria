@@ -1,4 +1,48 @@
 @charset "UTF-8";
+.bi-instagram {
+  width: 50px;
+  height: 50px;
+}
+.bi-instagram:hover {
+  box-shadow: 1px 1px 15px #d94077;
+}
+
+.bi-threads {
+  width: 50px;
+  height: 50px;
+}
+.bi-threads:hover {
+  box-shadow: 1px 1px 15px #0000ff;
+}
+
+.bi-whatsapp {
+  width: 50px;
+  height: 50px;
+}
+.bi-whatsapp:hover {
+  box-shadow: 1px 1px 15px #671313;
+}
+
+.txt-xxl {
+  font-size: 40px;
+}
+
+.txt-xl {
+  font-size: 38px;
+}
+
+.txt-md {
+  font-size: 28px;
+}
+
+.txt-sm {
+  font-size: 12px;
+}
+
+.txt-xs {
+  font-size: 10px;
+}
+
 * {
   font-family: "Quicksand", sans-serif;
   padding: 0;
@@ -61,7 +105,6 @@ header {
 }
 .encabezado nav ul li a {
   text-decoration: none;
-  color: #d94077;
 }
 
 .cont-logo {
